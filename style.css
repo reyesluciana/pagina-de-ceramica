@@ -1,0 +1,100 @@
+body{
+    font-family: cursive;
+    margin: 0%;
+    padding: 0%;
+    background-color: beige;
+}
+header{
+    padding: 0%;
+    background-color: bisque;
+    text-align: center;
+}
+nav ul{
+ list-style-type: none;
+ padding: 0cap;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+#pductos{
+    padding: 20px;
+    background-color: darksalmon;
+    margin-bottom: 40px;
+}
+.conten-produc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    background-color: beige;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3;
+    overflow: hidden;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+} 
+.btn{
+    background-color: azure;
+    color: black;
+    font-size: 1em;
+}
+.conten-contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#productos{
+    padding: 20px;
+    background-color: darksalmon;
+    margin-bottom: 40px;
+}
+.contact-iconos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.iconos{
+    background-color: beige;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3;
+    overflow: hidden;
+}
+.iconos:hover{
+    transform: scale(1.05);
+}
+.iconos img{
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+} 
+.btn{
+    background-color: azure;
+    color: black;
+    font-size: 1em;
+}
+footer{
+    text-align: center;
+    background-color: beige;
+    font-family: cursive;
+    
+}
